@@ -3,13 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testng.EbayTestDataProvider">
+      <class name="com.guru99.tests.HomeTests">
         <methods>
-          <include name="EbayRegTest" invocation-numbers="1"/>
+          <include name="preSetup"/>
           <include name="tearDown"/>
+          <include name="postTestAtion"/>
           <include name="setUp"/>
+          <include name="toVerifyRadioTest"/>
+          <include name="postTearDown"/>
         </methods>
-      </class> <!-- Testng.EbayTestDataProvider -->
+      </class> <!-- com.guru99.tests.HomeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
