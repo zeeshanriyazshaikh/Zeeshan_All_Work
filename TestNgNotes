@@ -1,0 +1,18 @@
+1) TestNg--unit test framework.
+
+2) Purpose--Design Test cases in systematic way
+-html reports---pass/fail and other reports
+-different annotations
+-priorities/sequence---giving priority to test cases
+-dependency---one test case dependent on another
+-grouping---test cases
+-data provider---ten UN and ten PWD u can use easily
+
+
+3)testing--open source,free
+JAR files
+
+4)TDD---test driven development ,we can use developer frame work to write test cases.
+--java unit testing framework
+
+http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1549

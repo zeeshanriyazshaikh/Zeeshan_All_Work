@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+<suite name="Ebay App session Test Automation Suite">
+<test name="Ebay App Test">
+
+<parameter name="" value="">
+<parameter name="url" value="https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F" />
+<parameter name="firstname" value="tom" />
+<parameter name="lasttname" value="peter" />
+<parameter name="email" value="zee.shaikhcool786@gmail.com" />
+<parameter name="password" value="Dongaz@1994" />
+</parameter>
+<classes>
+<class name="com.parameters.TestngParameters" />
+</classes>
+
+</test>
+</suite>
