@@ -15,7 +15,7 @@ public class Aarray_ForEach {
 	{
 	a[i]=s.nextInt();
 	}
-	Arrays.sort(a);                                ///array is class of util package that sort in ascending order
+	Arrays.sort(a);                                ///Arrays is class of util package that use sort to arrange in ascending order
 	System.out.println("sorted array element: ");
 	for(int b : a)                                  //for each loop a value gets store in b one by one// to iterate values from array object for each loop required
 	{
