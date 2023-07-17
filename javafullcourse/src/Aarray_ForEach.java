@@ -9,7 +9,7 @@ public class Aarray_ForEach {
 //                            ### 1D ARRAY PROGRAM ###
 	                                               ///int a[]= {10,20,30,40,50};  ye ek tarika hai next continued...
 	int a[]=new int[5];                              //array object
-	System.out.print("Enter array element: ");
+	System.out.print("Enter array element: ");       //shortcut to type s.o.p is type sout then press tab
 	Scanner s=new Scanner(System.in);                    //object create
 	for(int i=0;i<a.length;i++)                              //for loop ,array counter starts from 0 positions
 	{
