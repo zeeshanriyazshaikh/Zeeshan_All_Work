@@ -6,9 +6,9 @@ public class FindDuplicate {
 		// TODO Auto-generated method stub
 		
 		int a[]= {10,20,20,40,40,50}; //INTEGER ARRAY
-		System.out.println("size of integer array is "+a.length);
+		System.out.println("count of integer array is "+a.length);
 
-for(int i=0;i<a.length;i++) { //Difference between length() and length (variable) is length() method gives count of char of string and length gives size of array
+for(int i=0;i<a.length;i++) { //Difference between length() method and length (variable) is length() method gives count of each char of string and length gives count of array and both have return type as int.
 	
 	for(int j=i+1;j<a.length;j++) {
 		
