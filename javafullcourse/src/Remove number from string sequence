@@ -1,0 +1,16 @@
+
+public class removeNumber {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+
+        String str = "Zeeshan has 4 years of experience !!";
+       String[] word = str.split("\\s+");
+for(String words:word){
+if(!words.equals("4")&&!words.equals("!!")){
+    System.out.println(words);
+}
+}
+    }
+
+}
