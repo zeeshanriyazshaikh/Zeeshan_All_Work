@@ -10,6 +10,8 @@ String str="   Welcome    to            s apient ? ";
 String str1=str.replaceAll("\\s+"," ").trim(); //----Symbol \\s is for single white space and \\s+ is for one or multiple, trim removes leading and trailing space," "--it means 1 space,""--it means no space
 
 System.out.println(str1);
+String str2 = str1.replaceAll("s apient", "sapient");
+System.out.println(str2);
 
 
 
