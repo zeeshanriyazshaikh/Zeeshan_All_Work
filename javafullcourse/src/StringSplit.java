@@ -11,6 +11,12 @@ public class StringSplit {
 			char s=words[i].charAt(0);
 			System.out.println(s);
 		}
+		/*String[] (String Array):
+1>String[] is a data type used to represent an array (or list) of strings.
+2>It can store multiple strings, organized as an array, where each element is a separate string.
+3>Example: String[] names = {"today", "is", "monday"};
+4>In summary, String is used for single strings, while String[] is used for arrays or collections of strings. */
+
 		
 		
 		//PROGRAM TO SPLIT WORDS
