@@ -6,7 +6,7 @@ public class A {
 		// TODO Auto-generated method stub
 int a,b,c;
 System.out.print("Enter any two numbers:  ");
-Scanner S=new Scanner(System.in);              //Scanner first witten is class of java util package,s is object reference,new is DMA,2nd scanner is class name 
+Scanner S=new Scanner(System.in);              //Scanner first witten is class of java util package,s is object reference,new is DMA,Scanner(System.in) is invoking the constructor of the Scanner class.  
 a=S.nextInt();                                   //system is predefined class of java default lang package and in is to take input
 b=S.nextInt();  //nexint is Scanner class methods to take input from user
 
