@@ -6,7 +6,7 @@ public class HarshMarps {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //HashMap class implements Map interface
-		//maintains no order
+		//maintains order
 		//store values-->key-value pairs<k,v>
 		//key can not be duplicate,only unique elements,value can be duplicate
 		//it may have one null key and multiple null values
