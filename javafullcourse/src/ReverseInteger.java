@@ -10,11 +10,11 @@ public class ReverseInteger {
 		
 		while(a>0) {
 			
-			b=a%10;
+			b=a%10;  //modulas o/p is remainder
 			
 			System.out.print(b);
 			
-			a=a/10;
+			a=a/10;  //division o/p is quotient
 		
 		}
 		
