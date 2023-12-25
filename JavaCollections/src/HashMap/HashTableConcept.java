@@ -9,6 +9,7 @@ public class HashTableConcept {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //key value pairs
+//maintains no order
 		//unique key
 		//synchronised
 		//it does not allow any null key and null values
