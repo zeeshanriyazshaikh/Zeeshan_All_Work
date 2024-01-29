@@ -23,6 +23,18 @@ public class ScreenShot {
 		
 		File src =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE); //just copy paste
 		FileUtils.copyFile(src, new File("C:\\Users\\Faiz Riyaz\\eclipse-workspace\\1Selenium\\src\\google.png"));// copy project location from properties \\name of screenshot dot png.
+
+		/* #cucumber bdd screenshot code
+		@After(order = 1)
+    public void tearDown(Scenario scenario) throws Exception {
+        //Take screenshot
+        if(scenario.isFailed()){
+            final byte[] scr = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+            //Embed into report
+            scenario.attach(scr,"image/png",scenario.getName());
+
+        }
+		*/
 	}
 
 }
