@@ -13,6 +13,18 @@ public class StringCharOccurance {
 		
 		int count=totallength-lengthwithoutcharA;
 		System.out.println(count+" is count of char a");
+
+		/*Second way to count occurence
+String str = "Zeeshan has 4 years of experience !!";
+        int count = 0;
+        for (char c: str.toCharArray()){
+            if (Character.toLowerCase(c) == 'e'){
+                count++;
+            }
+
+        }
+        System.out.println("e count is as follows = " + count);
+		*/
 		
 	}
 
