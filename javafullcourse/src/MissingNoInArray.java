@@ -37,3 +37,19 @@ int[] a={1,2,3,4,6};
 
         System.out.println("missing number is "+ (sum2-sum1));
 */
+/*
+public class MyClass {
+    public static void main(String args[]) {
+        int[] arr={1,2,3,4,6,7};
+        int sum1=0;
+        int sum2=0;
+        for(int i=1; i<=7; i++){
+            sum1+=i;
+        }
+        for(int j : arr){
+            sum2+=j;
+        }
+        System.out.println(sum1-sum2);
+}
+}
+*/
