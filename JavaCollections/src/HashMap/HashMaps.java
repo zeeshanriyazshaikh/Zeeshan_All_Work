@@ -4,13 +4,13 @@ import java.util.Map.Entry;
 public class HarshMarps {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-//HashMap class implements Map interface
-		//maintains order
+		
+                //HashMap class implements Map interface
+		//HashMap does not guarantee or maintain order. LinkedHashMap should be used instead for ordering purpose
 		//store values-->key-value pairs<k,v>
-		//key can not be duplicate,only unique elements,value can be duplicate
+		//keys must be unique, but values can be duplicate.
 		//it may have one null key and multiple null values
-		//non synchronised,fast performance,more than one threads can access and process hashmap simultaneously, not thread safe
+		//non synchronised,not thread safe,fast performance,more than one threads can access and process hashmap simultaneously.
 		
 		//disadvantage=concurrent modification exception-- fail - fast condition(multithreading concept thread 1 that is t1 remove key1 but t2 fetching key1 same time then we will get exception)
 		//hashmap considered over hashtable if there is no use of multithreading concept
