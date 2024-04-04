@@ -7,7 +7,9 @@ public class HeadlessBrowserExample {
        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
        // Set Chrome options to run headlessly
        ChromeOptions options = new ChromeOptions();
-       options.addArguments("--headless"); // This line makes it headless
+      
+       options.addArguments("--headless"); // THIS SYNTAX MAKE IT HEADLESS
+      
        // Initialize Chrome driver
        WebDriver driver = new ChromeDriver(options);
        // Open a website
