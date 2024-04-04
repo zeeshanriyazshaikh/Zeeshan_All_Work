@@ -3,7 +3,7 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+#REVERSE STRING
 		
 		String str="zeeshan shaikh";
 		
@@ -39,19 +39,16 @@ public static void main(String args[]) {
 */
 
 
-/* #Reverse-Palindrome-String[convert char to string]
+/* #REVERSE PALLINDROME STRING ---> [convert char to string]
        String str = "MADAM";
        int strLen = str.length();
 
         for (int i = strLen - 1; i >= 0; i--) {
             char str1 = str.charAt(i);
-            String str2 = String.valueOf(str1);   //char to string//we can also use primitive to string conversion 
+            String str2 = String.valueOf(str1);   //char to string
             System.out.print(str2);
         }
       
         */
 			
-		}
-	}
 
-}
