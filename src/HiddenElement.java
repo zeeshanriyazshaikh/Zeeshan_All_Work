@@ -10,5 +10,8 @@ WebElement Element = driver.findElement(By.id("ElementId"));
 JavascriptExecutor js = (JavascriptExecutor)driver;
 js.executeScript("arguments[0].style.display = 'block';"  , Element);
 
+//Once Element is visible, Now we can interact with it
+Element.click();
+
 // "block" --> It means block level element [To make element visible]
 // "none"  --> If it is none that means element is hidden
