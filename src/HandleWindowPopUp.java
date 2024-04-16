@@ -27,7 +27,7 @@ public class HandleWindowPopUp {
 		
 		Thread.sleep(2000);
 		
-		Set<String> handler = driver.getWindowHandles();  //to get windows(child+parent) id's driver.getWindowHandles(); ,handler variable has set of all window id's both of child and parent windows.Set is Interface to provide output in set of string as id what we will get is set of strings.
+		Set<String> handler = driver.getWindowHandles();  //to get windows(child+parent) id's driver.getWindowHandles(); ,handler variable has set of all unique window id's both of child and parent windows.Set is Interface to provide output in set of string as id what we will get is set of strings.
 		
 		//Set does not store values like (Array list) index basis like 0,1,2.... ,so how to iterate the value from set object,
 		
