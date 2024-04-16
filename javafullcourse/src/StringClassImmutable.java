@@ -21,7 +21,11 @@ public class StringClassImmutable {
 		    StringBuffer sb = new StringBuffer(str);   //reverse characters
 		    System.out.println
 		    (sb.reverse());
-		    
+      
+		    //OR
+      
+                 String str5 = sb.reverse().toString();
+                 System.out.println(str5);
 		     */
 		    
 		    //STRING REVERSE PROGRAM
