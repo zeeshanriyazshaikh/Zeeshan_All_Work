@@ -52,8 +52,9 @@ if(linkText.equals("Zeeshan")){
 links.get(i).click();
 break;
 }
-
-
-
-
+*/
+/* #ONE MORE WAY
+List<WebElement> radio = driver.findElements(By.name("rad1"));
+		radio.get(1).click();
+		radio.get(0).click();
 */
