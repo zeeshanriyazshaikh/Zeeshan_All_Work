@@ -30,3 +30,8 @@ public class DifferenceBetweenactionandactions {
 	}
 
 }
+/*
+Actions Class:    Used to build sequences of user interactions, such as mouse movements, keyboard actions, etc.	
+Action Interface: Represents a single user-interaction action. such as keyDown,keyUp, etc.
+
+	*/
