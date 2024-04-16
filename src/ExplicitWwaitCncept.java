@@ -28,13 +28,30 @@ public class ExplicitWwaitCncept {
 		driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).sendKeys("john");
     	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(2));
     			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@class='gLFyf gsfi']")));
-    	
-    	
-    		driver.quit();
-		/*// EXPLICIT WAIT CODE AS PER SELENIUM 4
+    	        	driver.quit();
 		
-// some times we write code to click something that is not loaded or click able
+		/* EXPLICIT WAIT CODE AS PER SELENIUM 4
 		
+1. WebDriverWait: It's is a class.
+                  It's like a special timer that waits for a certain condition to be true before continuing.
+                  It's like waiting for a green light before crossing the road.
+2. wait.until:    This is the command to start waiting. It waits until a specific condition is met.
+3. ExpectedConditions: This is a collection of conditions that the WebDriverWait can wait for.
+                       It's like a menu of options for what to wait for.
+4.Here are the names of some commonly used conditions available in the ExpectedConditions class:
+
+alertIsPresent()
+elementToBeClickable()
+elementToBeSelected()
+elementSelectionStateToBe()
+frameToBeAvailableAndSwitchToIt()
+invisibilityOf()
+presenceOfAllElementsLocatedBy()
+presenceOfElementLocated()
+textToBePresentInElement()
+titleContains()
+titleIs()
+visibilityOf()
 */
 		
 }
