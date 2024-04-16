@@ -76,14 +76,33 @@ WebElement loginbtn=driver.findElement(By.xpath("/html/body/div[1]/div/div/form/
 	//GET TITLE USING JAVASCRIPT EXECUTOR
 	String text = jsExecutor.executeScript("return document.title;").toString();
 	System.out.println(text);
-	
-	
-	
-	
-	
-	
 	}	
 }
+/*
+#SOME MORE JAVA-SCRIPT-EXECUTOR COMMANDS
+document.getElementById('elementId')  :Retrieves the element with the specified ID from the DOM.
+document.querySelector('selector')    :Retrieves the first element that matches the specified CSS selector from the DOM.
+document.querySelectorAll('selector') :Retrieves all elements that match the specified CSS selector from the DOM.
+element.click()                       :Simulates a click on the specified element.
+element.value = 'text'                :Sets the value of the specified input element.
+element.removeAttribute('attribute')  :Removes the specified attribute from the element.
+window.scrollTo(x, y)                 :Scrolls the window to the specified coordinates (x, y).
+window.scrollBy(x, y)                 :Scrolls the window by the specified number of pixels (x, y).
+console.log('message')                :Logs a message to the browser console.
+alert('message')                      :Displays an alert dialog box with the specified message.
+confirm('message')                    :Displays a confirmation dialog box with the specified message.
+
+/*
+#BENEFITS OF JAVA-SCRIPT-EXECUTOR
+1.Interacting with Hidden Elements
+2.Setting Attribute Values
+3.Performance
+4.Cross-Browser Compatibility
+5.Flexibility
+6.Debugging and Troubleshooting
+JavaScriptExecutor is a powerful tool that complements WebDriver's capabilities and provides additional flexibility and control over testing automation tasks.
+It should be used judiciously to enhance test automation scripts effectively.
+*/
 
 
 
