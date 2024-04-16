@@ -43,9 +43,11 @@ jsExecutor.executeScript("arguments[0].value='Khansabaig@1994'", password);
 WebElement loginbtn=driver.findElement(By.xpath("/html/body/div[1]/div/div/form/div/div[3]")); 
 // Execute JavaScript to make the HIDDEN ELEMENT VISIBLE
        ((JavascriptExecutor) driver).executeScript("document.getElementById('hiddenElement').style.display='block';");
-	//BORDER WEB ELEMENT USING JAVASCRIPTEXECUTOR
-	 
-	jsExecutor.executeScript("arguments[0].style.border='2px solid red'", loginbtn);
+		#OR
+jsExecutor.executeScript("arguments[0].style.display = 'block';", hiddenElement);
+	
+		//BORDER WEB ELEMENT USING JAVASCRIPTEXECUTOR
+ jsExecutor.executeScript("arguments[0].style.border='2px solid red'", loginbtn);
 	
 	//HIGH LIGHT WEB ELEMENT USING JAVASCRIPTEXECUTOR  
 	  jsExecutor.executeScript("arguments[0].style.background='yellow'", loginbtn);  
