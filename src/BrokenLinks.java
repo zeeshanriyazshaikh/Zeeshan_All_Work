@@ -38,3 +38,13 @@ public class BrokenLinksExample {
        driver.quit();
    }
 }
+/*
+#TO UNDERSTAND IT IN SHORT
+1. Take all links by findElements
+2. Pick each link and getAttributes("href") and save in url varaible i.e used below as URL(url)
+3. HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
+4. -connection.connect();
+   -int responseCode = connection.getResponseCode();
+   -if responseCode >= 400 then links are broken
+   -connection.disconnect();
+*/
