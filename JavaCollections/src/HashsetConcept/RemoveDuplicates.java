@@ -34,16 +34,21 @@ for(int i:hs)
 {
 	System.out.println(i);
 }
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }
+/*
+#ALTERNATE METHOD [From program: list of missing numbers in array]
+int a[] = {1,2,2};
+       Set<Integer> set = new HashSet<Integer>();
+       for(int b : a){
+         set.add(b);  
+       }
+       System.out.println(set);
+       
+       //Iterate from set
+       for(int sets:set){
+           System.out.print(sets+" ");
+       }
+*/
