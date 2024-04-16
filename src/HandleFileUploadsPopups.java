@@ -17,7 +17,7 @@ public class HandleFileUploadsPopups {
 }
 
 /*
-FILE UPLOADS USING ROBO CLASS
+FILE UPLOADS USING ROBO CLASS [Save file path to clip-board and paste where-ever required]
         // Create a new Robot instance
         Robot robot = new Robot();
 
