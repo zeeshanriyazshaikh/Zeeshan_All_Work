@@ -10,6 +10,18 @@ public class LocatorConcept {
 		                  //BEST PRIORITY LOCATOR ID ,NAME AND XPATH IF NOT HIERARCHY BASED//
 		                  //BEST FOR LINK IS LINK TEXT//
 		                  //CSS SELECTOR ALSO GOOD AS ID USED//
+		                  //here's a list of locators in Selenium:
+/*
+                                     1.ID
+                                     2.Name
+                                     3.Class Name
+                                     4.Tag Name
+                                     5.Link Text
+                                     6.Partial Link Text
+                                     7.CSS Selector
+                                     8.XPath
+*/
+
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\\\Users\\\\Faiz Riyaz\\\\Desktop\\\\chrome driver\\\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
