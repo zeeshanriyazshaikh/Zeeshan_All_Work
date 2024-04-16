@@ -17,18 +17,43 @@ public class FindElementsConcept {
 		//1.Get the total count of links
 		
 		//2.All the links are represented by <a> HTML tag i.e:anchor tag
-		List <WebElement> linklists =driver.findElements(By.tagName("a")); //however we can get buttons,inputs etc count as well,WebElement in list bracket <> is return type.
-		//3.size of linklists
-		System.out.println(linklists.size());
+		List <WebElement> links =driver.findElements(By.tagName("a"));   //however we can get buttons,inputs etc count as well,WebElement in list bracket <> is return type.
+		//3.size of links
+		int linkSize = links.size();
+		System.out.println(linkSize);
 		
 		//4.Get the text of each links on the page
 		
 		
-		for(int i=0; i<linklists.size();i++)   //we can also write  (int i=1; i<=linklists.size();i++)
+		for(int i=0; i<linkSize;i++)   //
 		{
-		String linktext  =	linklists.get(i).getText();
-System.out.println(linktext);
+		String linkText  = links.get(i).getText();
+                System.out.println(linktext);
 		}
 	}
 
 }
+/* CLICK PARTICULAR LINK ONLY
+
+1.Enhanced for loop or for each loop
+
+for(WebElement link : links ){
+if(link.getText().equals("Zeeshan")){
+link.click();
+break;
+}
+
+2.Regular or traditional for loop
+
+for(int i=0;i<linkSize;i++){
+String linkText = links.get(i).getText();
+if(linkText.equals("Zeeshan")){
+
+links.get(i).click();
+break;
+}
+
+
+
+
+*/
