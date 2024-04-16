@@ -18,7 +18,8 @@ public class CustomXpath {
 		//driver.findElement(By.xpath("//input[contains(@id='gh-ac')]")).sendKeys("books");
 		                                //OR
 		//	driver.findElement(By.xpath("//input[starts-with(@id='gh-ac')]")).sendKeys("books");
-		
+		                                 //OR
+                                     (//*[contains(.,"test")])[2]
 		//ONLY for links custom xpath
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//a[contains(text(),'register')]")).click();
