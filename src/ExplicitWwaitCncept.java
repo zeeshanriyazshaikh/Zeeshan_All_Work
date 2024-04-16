@@ -36,7 +36,8 @@ public class ExplicitWwaitCncept {
                   It's like a special timer that waits for a certain condition to be true before continuing.
                   It's like waiting for a green light before crossing the road.
 2. wait.until:    This is the command to start waiting. It waits until a specific condition is met.
-3. ExpectedConditions: This is a collection of conditions that the WebDriverWait can wait for.
+3. ExpectedConditions: It is a class in Selenium WebDriver.
+                       This is a collection of conditions that the WebDriverWait can wait for.
                        It's like a menu of options for what to wait for.
 4.Here are the names of some commonly used conditions available in the ExpectedConditions class:
 
@@ -52,6 +53,7 @@ textToBePresentInElement()
 titleContains()
 titleIs()
 visibilityOf()
+
 */
 		
 }
