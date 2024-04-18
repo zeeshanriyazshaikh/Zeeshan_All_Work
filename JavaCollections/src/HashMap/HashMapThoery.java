@@ -1,7 +1,7 @@
 package HashMap;
 import java.util.HashMap;
 import java.util.Map.Entry;
-public class HarshMarps {
+public class HashMaps {
 
 	public static void main(String[] args) {
 		
