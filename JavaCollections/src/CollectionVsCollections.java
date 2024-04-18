@@ -23,4 +23,4 @@ B]Collections
 1>It is a utility class in java which contains only static methods.
 2>It extends Objects.
 3>It has only static methods 
-4>For example: Sorting,Reversing,Shuffling,Searching,Max,Min,Frequency,Copy and Fill,Unmodifiable Collections.
+4>For example: sort(),reverse(),shuffle(),binarySearch(),max(),min(),frequency(),copy() and fill(),unmodifiableList().
