@@ -33,4 +33,4 @@ for(int c : b)                                  //for each loop a value gets sto
 }
 #ARRAYS THEORY:
 1>Arrays: Utility class provides total 29 methods for working with arrays.
-2>Contains various methods for manipulating arrays(such as sort,binarySearch,equals,asList,fill,copyOf,copyOfRange,toString,mismatch).
+2>Contains various methods for manipulating arrays(such as sort,binarySearch,equals,asList,fill,copyOf,copyOfRange,toString,mismatch,min,max).
