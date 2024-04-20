@@ -21,7 +21,7 @@ for(int i=0;i<=4;i++)
 }
 
 System.out.println();
-Arrays.sort(b);           //This class contains various methods for manipulating arrays (such assorting and searching).
+Arrays.sort(b);           //Arrays: Utility class for working with arrays.Contains various methods for manipulating arrays(such assorting and searching).
 
 System.out.println("sorted array element: ");
 for(int c : b)                                  //for each loop a value gets store in b one by one
