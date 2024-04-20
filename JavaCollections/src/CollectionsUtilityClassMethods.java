@@ -4,6 +4,10 @@ import java.util.Arrays;
 
 public class CollectionsUtilityClassMethods {
     public static void main(String[] args) {
+#COLLECTIONS THEORY
+1>Collections have total 65 methods to work with collection.
+2>sort,reverse,shuffle,binarySearch,min,max,frequency,copy and fill,unmodifiableList,list,swap,replaceAll,synch fro thread safe.
+    
       //1. Sorting
         List<Integer> numbers = Arrays.asList(5, 2, 8, 1, 3);
         System.out.println("Before sorting: " + numbers);
@@ -43,15 +47,15 @@ public class CollectionsUtilityClassMethods {
         List<Integer> source = Arrays.asList(1, 2, 3);
         List<Integer> destination = Arrays.asList(0, 0, 0, 0, 0);
         
-        // Copy
+        Copy
         Collections.copy(destination, source);
         System.out.println("Copied list: " + destination);
         
-        // Fill
+        Fill
         Collections.fill(destination, 10);
         System.out.println("Filled list: " + destination);
       
-      //8. unmodifiableList
+        //8. unmodifiableList
         List<String> names = Arrays.asList("Alice", "Bob", "Charlie");
         
         // Create unmodifiable list
