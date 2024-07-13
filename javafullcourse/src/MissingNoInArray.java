@@ -68,7 +68,7 @@ public class listOfMissingNumbers {
        Set<Integer> set = new HashSet<>();
        List<Integer> missing = new ArrayList<>();
 
-       int max = Arrays.stream(nums).max().orElse(0); // Find the maximum number in the array
+       int max = nums[nums.length-1];
 System.out.println("Max " + max);
        for (int num : nums) {
            set.add(num);
