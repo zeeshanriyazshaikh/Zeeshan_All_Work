@@ -1,0 +1,24 @@
+Map<String, Integer> charCountMap = new HashMap<>();
+        charCountMap.put("a", 4);
+        charCountMap.put("b", 2);
+        charCountMap.put("c", 3);
+
+        int max = 0;  // Set max to the minimum possible value
+        int secondMax = 0; // Set secondMax to the minimum possible value
+        String maxKey = ""; // To store the key with the maximum value
+
+        for (Map.Entry<String, Integer> entry : charCountMap.entrySet()) {
+            System.out.println("Count of " + entry.getKey() + " is: " + entry.getValue());
+            int value = entry.getValue();
+            if ( value > max) {
+                secondMax = max;
+                max = value;
+                maxKey = entry.getKey(); // Update the key with the maximum value
+            }
+            else if (value > secondMax && value != max) {
+                secondMax = value;  // Update second max if the value is between max and second max
+                maxKey = entry.getKey();
+            }
+        }
+
+        System.out.println("Key with the Secondmaximum value: " + maxKey + ", secondMax value: " + secondMax);
