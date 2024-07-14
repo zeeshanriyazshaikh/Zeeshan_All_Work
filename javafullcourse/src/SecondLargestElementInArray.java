@@ -9,5 +9,24 @@ public class MyClass {
      System.out.println(" ");
      System.out.println("Second largest element in Array is " + secondlargest);
 //Output = 6 
+/*
+        int[] a = {5, 2, 8, 1, 6};
+        int secondMax = 0;
+        int max = 0;
+        for(int i=0;i<a.length;i++){
+            if(a[i]>max){
+                secondMax=max;
+                max=a[i];
+            }
+            else if (a[i] > secondMax && a[i] != max) {
+                secondMax = a[i]; 
+            }
+        
+        }
+        System.out.println(secondMax);
+
+*/
+
+        
     }
 }
