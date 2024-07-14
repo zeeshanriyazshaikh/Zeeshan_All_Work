@@ -74,7 +74,10 @@ int mismatchIndex = Arrays.mismatch(arr1, arr2);
 System.out.println("Mismatch index: " + mismatchIndex); // Output: Mismatch index: 2
 j)min/max
 int[] numbers = {5, 2, 8, 1, 6};
-int minValue = Arrays.min(numbers);
-int maxValue = Arrays.max(numbers);
-System.out.println("Minimum value: " + minValue); // Output: Minimum value: 1
-System.out.println("Maximum value: " + maxValue); // Output: Maximum value: 8
+        int minValue = Arrays.stream(numbers).min().orElse(Integer.MIN_VALUE);
+        int maxValue = Arrays.stream(numbers).max().orElse(Integer.MAX_VALUE);
+        
+        System.out.println("Minimum value: " + minValue); // Output: Minimum value: 1
+        System.out.println("Maximum value: " + maxValue); // Output: Maximum value: 8
+    }
+}
