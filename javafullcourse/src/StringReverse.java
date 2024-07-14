@@ -23,7 +23,7 @@ public static void main(String args[]) {
     String str="zeez";
     
         for(int i=0;i<str.length();i++){
-            rev=str.charAt(i)+rev;
+            rev=str.charAt(i)+rev;   //we add rev to char and store in rev which is string hence no need to convert char to string here
             System.out.println(rev);
         }
 
