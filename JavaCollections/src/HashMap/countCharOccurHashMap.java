@@ -44,4 +44,17 @@ String str = "Hello w@@or!@ld 1123";
 */
 //NOTE:If we just want to remove space count then use if(c != ' ')
 
-
+//shadab code
+String str = "zeeshan";
+       Map<Character, Integer> charCountMap = new HashMap<>();
+       for (char c : str.toCharArray()) {
+           if (charCountMap.containsKey(c)) {
+               charCountMap.put(c, charCountMap.get(c) + 1);
+           } else {
+               charCountMap.put(c, 1);
+           }
+       }
+       // Display the character counts
+       for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+           System.out.println(entry.getKey() + ": " + entry.getValue());
+       }
