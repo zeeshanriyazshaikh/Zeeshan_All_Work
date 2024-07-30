@@ -24,3 +24,19 @@ System.out.print(entriesList);                                  //both keys and 
         System.out.println("New Map: " + newMap);
     }
 }
+/* //SCENARIO 2: [ Converting ArrayList to HashMap ]
+ArrayList<Object> list = new ArrayList<>();
+        list.add(1); // Key
+        list.add("One"); // Value
+        list.add(2); // Key
+        list.add("Two"); // Value
+
+        HashMap<Integer, String> map = new HashMap<>();
+        for (int i = 0; i < list.size(); i += 2) {
+            Integer key = (Integer) list.get(i);
+            String value = (String) list.get(i + 1);
+            map.put(key, value);
+        }
+
+        System.out.println(map); // Output: {1=One, 2=Two}
+*/
