@@ -25,16 +25,16 @@ System.out.print(entriesList);                                  //both keys and 
     }
 }
 /* //SCENARIO 2: [ Converting ArrayList to HashMap ]
-ArrayList<Object> list = new ArrayList<>();
-        list.add(1); // Key
+ArrayList<Object> list = new ArrayList<>();            //In Java, Object is the root class of all classes. 
+        list.add(1); // Key                            //When you store an Integer or String in an Object reference, you are using upcasting
         list.add("One"); // Value
         list.add(2); // Key
         list.add("Two"); // Value
 
         HashMap<Integer, String> map = new HashMap<>();
         for (int i = 0; i < list.size(); i += 2) {
-            Integer key = (Integer) list.get(i);
-            String value = (String) list.get(i + 1);
+            Integer key = (Integer) list.get(i);          //Integer and String are classes that extend the Object
+            String value = (String) list.get(i + 1);      //When you retrieve an element from the ArrayList<Object>, it is returned as an Object. To use it as an Integer or String, you need to downcast it back to its original type.
             map.put(key, value);
         }
 
