@@ -6,12 +6,12 @@ int[] a = {10, 20, 20, 40, 40, 50}; // INTEGER ARRAY
 
         // Iterate through the array and update the frequency in the HashMap
         for (int num : a) {
-            map.put(num, map.getOrDefault(num, 0) + 1); //map.put(key => array value, value => no of occurence of key)
+            map.put(num, map.getOrDefault(num, 0) + 1); //map.put(key --> array value, value --> no of occurence of key)
         }
 
         // Print the duplicates
         for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-            if (entry.getValue() > 1) { 
+            if (entry.getValue() > 1) {                            //To remove duplicate  if (entry.getValue() >= 1)
                 System.out.println("Duplicate integer value: " + entry.getKey());
             }
         }
