@@ -32,3 +32,28 @@ public class MyClass {
     }
 }
 */
+
+/*
+#THIRD MAX ELEMENT IN AN ARRAY
+System.out.println("Try programiz.pro");
+        int[] a = {1, 2, 5, 3, 4, 55, 33, 37, 12, 0};
+
+        int max = Integer.MIN_VALUE;
+        int second = Integer.MIN_VALUE;
+        int third = Integer.MIN_VALUE;
+
+        for (int c : a) {
+            if (c > max) {
+                third = second;
+                second = max;
+                max = c;
+            } else if (c > second && c != max) {
+                third = second;
+                second = c;
+            } else if (c > third && c != second && c != max) {
+                third = c;
+            }
+        }
+
+        System.out.println("Third max: " + third);
+
