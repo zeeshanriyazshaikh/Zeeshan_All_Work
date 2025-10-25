@@ -17,17 +17,25 @@ public class ReverseInteger {
 			a=a/10;  //division o/p is quotient
 		
 		}
+
+
+
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		//USING STRING-BUILDER
+public class ReverseNumber {
+    public static void main(String[] args) {
+        int a = 1234;
+
+        // Convert number to string and reverse it
+        String reversed = new StringBuilder(String.valueOf(a)).reverse().toString();
+
+        System.out.println(reversed); // Output: 4321
+    }
+}
+
+	
 		
 	}
 
 }
+
