@@ -68,7 +68,7 @@ public class listOfMissingNumbers {
 
        Set<Integer> set = new HashSet<>();
        List<Integer> missing = new ArrayList<>();
-
+Arrays.sort(nums);
        int max = nums[nums.length-1];
 System.out.println("Max " + max);
        for (int num : nums) {
@@ -85,4 +85,5 @@ System.out.println("Set " + set);
    }
 } 
 /*
+
 
