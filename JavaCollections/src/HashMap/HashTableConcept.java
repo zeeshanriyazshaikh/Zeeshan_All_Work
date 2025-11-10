@@ -29,9 +29,10 @@ public class HashTableConcept {
 		System.out.println(sirname.get("khansa"));
 		System.out.println(sirname.get("faiz"));   //gives null output as no key of faiz name is there in hash map
 		
-		for(Entry m : sirname.entrySet()) {
+		for(Map.Entry m : sirname.entrySet()) {
 			System.out.println(m.getKey()+" "+m.getValue());
 		}
 	}
 
 }
+
