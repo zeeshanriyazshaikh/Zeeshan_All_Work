@@ -30,7 +30,7 @@ public class HashMaps {
 		
 		//TO ITERATE ALL ENTERIES OF HASHMAP
 		
-		for(Entry m : sirname.entrySet()) {// entrySet Returns a Set view of the mappings contained in this map//Map.Entry is a raw type. References to generic type Map.Entry<K,V> should be parameterized
+		for(Map.Entry m : sirname.entrySet()) {// entrySet Returns a Set view of the mappings contained in this map//Map.Entry is a raw type. References to generic type Map.Entry<K,V> should be parameterized
 			System.out.println(m.getKey()+" "+m.getValue());
 		}
 		
@@ -44,3 +44,4 @@ public class HashMaps {
 	}
 
 }
+
