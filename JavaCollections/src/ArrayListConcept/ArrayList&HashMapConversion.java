@@ -8,8 +8,8 @@ map.put(1, "One");
 map.put(2, "Two");
 map.put(3, "Three");
 System.out.print(map);
-ArrayList<String> valuesList = new ArrayList<>(map.values());   //just values
-ArrayList<Integer> keysList = new ArrayList<>(map.keySet());    // just keys
+ArrayList<String> valuesList = new ArrayList<>(map.values());   //This returns a Collection of all the values in the map.
+ArrayList<Integer> keysList = new ArrayList<>(map.keySet());    // This returns a Set of all the keys in the map.
 ArrayList<Map.Entry<Integer, String>> entriesList = new ArrayList<>(map.entrySet());
 System.out.print(entriesList);                                  //both keys and values
        System.out.print(valuesList);
