@@ -33,5 +33,6 @@ public class DifferenceBetweenactionandactions {
 /*
 Actions Class:    Used to build sequences of user interactions, such as mouse movements, keyboard actions, etc.	
 Action Interface: Represents a single user-interaction action. such as keyDown,keyUp, etc.
-NOTE: Actions class can do everything, but Action interface can used when we want to store or reuse a built action later
+NOTE1: Actions class can do everything, but Action interface can used when we want to store or reuse a built action later
+NOTE2: perform() already builds and executes the action sequence internally.build() is only needed if you want to store the action chain and execute it later, or reuse it multiple times.
 	*/
