@@ -54,6 +54,28 @@ break;
 }
 }
 /*
+### IF WE DONT WANT TO USE SELECT CLASS ###
+1>
+ebElement input = wait.until(ExpectedConditions.elementToBeClickable(
+        By.cssSelector("input[aria-controls='country-listbox']")));
+input.click();
+input.clear();
+input.sendKeys("India");
+// Wait for the first matching option and press Enter
+wait.until(ExpectedConditions.visibilityOfElementLocated(
+        By.xpath("//li[@role='option' and contains(., 'India')]")));
+input.sendKeys(Keys.ENTER);
+2>JavascriptExecutor 
+3>Actions class
+Actions actions = new Actions(driver);
+
+WebElement dropdown = driver.findElement(By.cssSelector(".custom-select"));
+dropdown.click();
+
+actions.sendKeys(Keys.ARROW_DOWN)
+       .sendKeys(Keys.ARROW_DOWN)
+       .sendKeys(Keys.ENTER)
+       .build().perform();
 
 /*
 SELECT CLASS METHODS for interacting with dropdowns:
