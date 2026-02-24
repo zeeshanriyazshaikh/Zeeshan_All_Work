@@ -35,6 +35,19 @@ public class ScreenShot {
 
         }
 		*/
+		#Explaination for above code
+			1>if(scenario.isFailed()) : checks if scenario failed and return boolean as true/false
+			2>final byte[] scr = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
+		-byte array/It is just a format that Cucumber understands to show the image inside its report.
+			-driver → Your Selenium WebDriver (Chrome, Firefox, etc.)
+-(TakesScreenshot) driver → Converts the driver to something that can take screenshots.
+-getScreenshotAs(OutputType.BYTES) → Captures the screenshot as bytes (raw data), not a file
+			
+			3>scenario.attach(scr,"image/png",scenario.getName());
+		variable scr → the screenshot image in bytes
+"image/png" → tells Cucumber the type of file
+scenario.getName() → gives a label/name (title) for the screenshot in the report
+			
 	}
 
 }
